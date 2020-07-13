@@ -3,7 +3,7 @@ namespace PingPong
 {
   public class Program  
   {
-    static void Main(string[] args) 
+    static void Main(string[] stringArrayName) 
     {
       Console.WriteLine("Enter a number to count to: ");
       string stringNumber = Console.ReadLine();
