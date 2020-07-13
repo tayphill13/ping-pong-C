@@ -7,7 +7,7 @@
 
 ## Description
 
-_A C# applicaton that runs a car dealership page off the dotnet_
+_A C# applicaton completes the Ping Pong exercise_
 
 ## Setup/Installation Requirements
 
@@ -22,7 +22,11 @@ __
 
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
-
+| User enters a number to count to  | 9 |     |
+| A list of numbers from 1 to the entered number is displayed    | 9  |  1, 2, 3, 4, 5, 6, 7, 8, 9  |
+| Numbers divisible by 3 are returned instead as "Ping" |  4 |   1, 2, Ping, 4  |
+| Numbers divisible by 5 are returnd as "Pong"  | 5  |  1, 2, 3, 4, Pong  |
+| Numbers divisibly by 3 and 5 both, are returned as "Ping Pong"  |   15    |   ... 10, 11, 12, 13, 14, Ping Pong   |
 
 
 ## Known Bugs
