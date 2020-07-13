@@ -5,7 +5,11 @@ namespace PingPong
   {
     static void Main(string[] args) 
     {
-      for (int i = 1; i <= 100; i++)  
+      Console.WriteLine("Enter a number to count to: ");
+      string stringNumber = Console.ReadLine();
+      int userNumber = int.Parse(stringNumber);
+
+      for (int i = 1; i <= userNumber; i++)  
       {
         if (i % 3 == 0 && i % 5 == 0) 
         {
